@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #ffff, #ffff);
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+a {
+    color: #000 !important;
+    font-weight: 600;
+    text-align: left !important;
+}
+
+.fa-bars {
+    color: #000;
+    font-style: 30px;
+    font-size: 30px !important;
+    border-color: white;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+.btn-danger {
+    border-radius: 50%;
+    font-weight: bold;
+    color: white;
+    border: dashed 3px white;
+    transition: .5s all;
+    animation: circle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    font-size: 24px;
+}
+
+/* === banner ====*/
+
+#banner {
+    background-image: linear-gradient(to right, black, black);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.titleWaman {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.wamamanimage {
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a {
+    color: #fff;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+/* === Products ====*/
+
+.products {
+    padding: 80px 0;
+    margin-top: 5px;
+}
+
+.products-img {
+    width: auto;
+    margin-top: 0;
+    height: 400px;
+}
+
+.title::before {
+    content: '';
+    background-color: #000;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after {
+    content: '';
+    background-color: #000;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+#products .bnt-primary {
+    color: #fff;
+    box-shadow: none;
+    padding: 8px 25px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #000;
+
+}
+
+/* === Choose ====*/
+#chooseWaman {
+    background: whitesmoke;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.title-choose {
+    font-style: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+.text-choose-left {
+    margin-left: 10px;
+}
+
+.text-choose {
+    margin: 10px 0;
+}
+
+.img-choose {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px #fff;
+    padding: 5px;
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
+}
+
+.img-choose:hover {
+    transform: scale(1.5);
+}
+
+
+/* === We trust US ====*/
+
+#trustWaman {
+    margin: 100px 0;
+}
+
+.trustWaman {
+    border-left: 4px solid #000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.trustWaman img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details {
+    display: inline-block;
+    font-display: 120px;
+}
+
+/* ===  Find Us on Social Media  === */
+
+#socialmedia {
+    background: #f8f8f8;
+    padding: 100px 0;
+}
+
+#socialmedia p {
+    font-size: 31px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.socialicons img {
+    width: 60px;
+    transition: 0.5;
+}
+
+.socialicons a:hover img {
+    transform: translateY(-10px);
+}
+
+
+/* ===  footer  === */
+
+
+#footer {
+    background-color: #fff;
+}
+
+.footer-img {
+    width: 100%;
+}
+
+.footer-astuce {
+    margin-left: 10px;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+
+.footer-box .fa {
+    margin-right: 8px;
+    font-style: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 25px;
+    background-color: #fff;
+    color: #000;
+}
+
+.footer-box .fa:hover {
+    margin-right: 8px;
+    font-style: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 25px;
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+.footer-box .form-control {
+    box-shadow: none !important;
+    bottom: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary {
+    box-shadow: none !important;
+    bottom: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #000;
+}
+
+hr {
+    background-color: #f8f8f8;
+}
